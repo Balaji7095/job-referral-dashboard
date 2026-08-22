@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job Referral Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">PERSONAL JOB TRACKER</div>
+      <h1>Job Referral Dashboard</h1>
+      <p>Direct company career links • India • Referral-ready</p>
+    </div>
+    <div class="status" id="status">Connecting…</div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h2>Find the right openings faster.</h2>
+        <p>Software Engineering, QA/SDET, Test Automation and Network Engineering roles from configured company career sources.</p>
+      </div>
+      <div class="stats">
+        <div><strong id="jobCount">—</strong><span>active jobs</span></div>
+        <div><strong id="companyCount">—</strong><span>companies</span></div>
+      </div>
+    </section>
+
+    <section class="filters">
+      <input id="search" placeholder="Search title, skill, company…" />
+      <select id="role">
+        <option value="">All roles</option>
+        <option>Software Engineer</option>
+        <option>Software Test Engineer</option>
+        <option>QA / SDET</option>
+        <option>Network Engineer</option>
+      </select>
+      <select id="location">
+        <option value="">All locations</option>
+        <option>Bangalore</option>
+        <option>Hyderabad</option>
+        <option>India / Remote</option>
+      </select>
+      <select id="company">
+        <option value="">All companies</option>
+      </select>
+      <select id="sort">
+        <option value="newest">Newest</option>
+        <option value="company">Company</option>
+        <option value="title">Title</option>
+      </select>
+    </section>
+
+    <div class="toolbar">
+      <span id="resultCount">Loading…</span>
+      <span>Only jobs seen recently are shown.</span>
+    </div>
+
+    <section id="jobs" class="jobs"></section>
+
+    <section id="empty" class="empty hidden">
+      <h3>No matching jobs</h3>
+      <p>Try removing a filter or run the GitHub Action manually.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>Built for referral-based applications</span>
+    <span id="updated"></span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

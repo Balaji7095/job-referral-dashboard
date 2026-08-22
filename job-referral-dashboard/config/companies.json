@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Quizizz",
+    "slug": "quizizz",
+    "source_type": "lever",
+    "board": "quizizz",
+    "career_url": "https://quizizz.com/careers"
+  },
+  {
+    "name": "Sitetracker",
+    "slug": "sitetracker",
+    "source_type": "lever",
+    "board": "sitetracker",
+    "career_url": "https://www.sitetracker.com/careers/"
+  },
+  {
+    "name": "Neuron7",
+    "slug": "neuron7",
+    "source_type": "lever",
+    "board": "neuron7",
+    "career_url": "https://www.neuron7.ai/careers"
+  },
+  {
+    "name": "RapidAI",
+    "slug": "rapidai",
+    "source_type": "lever",
+    "board": "rapidai",
+    "career_url": "https://www.rapidai.com/careers"
+  },
+  {
+    "name": "PDI Technologies",
+    "slug": "pdi-technologies",
+    "source_type": "lever",
+    "board": "pditechnologies",
+    "career_url": "https://pditechnologies.com/careers/"
+  },
+  {
+    "name": "Alif Semiconductor",
+    "slug": "alif-semiconductor",
+    "source_type": "lever",
+    "board": "alifsemi",
+    "career_url": "https://alifsemi.com/careers/"
+  },
+  {
+    "name": "Fluence",
+    "slug": "fluence",
+    "source_type": "lever",
+    "board": "fluence",
+    "career_url": "https://fluenceenergy.com/careers/"
+  },
+  {
+    "name": "Cisco",
+    "slug": "cisco",
+    "source_type": "generic",
+    "career_url": "https://jobs.cisco.com/",
+    "search_url": "https://jobs.cisco.com/jobs/SearchJobs/"
+  },
+  {
+    "name": "Micron",
+    "slug": "micron",
+    "source_type": "generic",
+    "career_url": "https://careers.micron.com/",
+    "search_url": "https://careers.micron.com/careers"
+  },
+  {
+    "name": "HPE",
+    "slug": "hpe",
+    "source_type": "generic",
+    "career_url": "https://careers.hpe.com/",
+    "search_url": "https://careers.hpe.com/us/en"
+  },
+  {
+    "name": "Akamai",
+    "slug": "akamai",
+    "source_type": "generic",
+    "career_url": "https://www.akamai.com/careers",
+    "search_url": "https://www.akamai.com/careers"
+  },
+  {
+    "name": "Qualcomm",
+    "slug": "qualcomm",
+    "source_type": "generic",
+    "career_url": "https://www.qualcomm.com/company/careers",
+    "search_url": "https://www.qualcomm.com/company/careers"
+  },
+  {
+    "name": "AMD",
+    "slug": "amd",
+    "source_type": "generic",
+    "career_url": "https://careers.amd.com/",
+    "search_url": "https://careers.amd.com/careers"
+  },
+  {
+    "name": "NVIDIA",
+    "slug": "nvidia",
+    "source_type": "generic",
+    "career_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+    "search_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+  },
+  {
+    "name": "Adobe",
+    "slug": "adobe",
+    "source_type": "generic",
+    "career_url": "https://careers.adobe.com/",
+    "search_url": "https://careers.adobe.com/us/en"
+  },
+  {
+    "name": "Salesforce",
+    "slug": "salesforce",
+    "source_type": "generic",
+    "career_url": "https://www.salesforce.com/company/careers/",
+    "search_url": "https://careers.salesforce.com/en/jobs/"
+  },
+  {
+    "name": "ServiceNow",
+    "slug": "servicenow",
+    "source_type": "generic",
+    "career_url": "https://www.servicenow.com/careers/",
+    "search_url": "https://careers.servicenow.com/"
+  },
+  {
+    "name": "Atlassian",
+    "slug": "atlassian",
+    "source_type": "generic",
+    "career_url": "https://www.atlassian.com/company/careers",
+    "search_url": "https://www.atlassian.com/company/careers/all-jobs"
+  },
+  {
+    "name": "Oracle",
+    "slug": "oracle",
+    "source_type": "generic",
+    "career_url": "https://www.oracle.com/careers/",
+    "search_url": "https://careers.oracle.com/"
+  },
+  {
+    "name": "Dell Technologies",
+    "slug": "dell",
+    "source_type": "generic",
+    "career_url": "https://jobs.dell.com/",
+    "search_url": "https://jobs.dell.com/"
+  },
+  {
+    "name": "Palo Alto Networks",
+    "slug": "palo-alto-networks",
+    "source_type": "generic",
+    "career_url": "https://jobs.paloaltonetworks.com/",
+    "search_url": "https://jobs.paloaltonetworks.com/"
+  }
+]
